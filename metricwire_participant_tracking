@@ -1,8 +1,9 @@
 # Given the string of survey types within a given time period, count the number of occurrences of each survey type 
 
-# You'll want to copy a string of the surveys from the dates you're interested and paste that into the string variable 
-
+# You'll want to copy a string of the surveys from the dates you're interested in and paste that into the string variable 
 string = "" 
+
+# Separates the string into each word
 surveys = string.split()
 
 def surveyCount(surveys):
