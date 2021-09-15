@@ -1,0 +1,26 @@
+# Given the string of survey types within a given time period, count the number of occurrences of each survey type 
+
+# You'll want to copy a string of the surveys from the dates you're interested and paste that into the string variable 
+
+string = "" 
+surveys = string.split()
+
+def surveyCount(surveys):
+# Initializing the counters 
+  daily, ran, nu, fu = 0, 0, 0, 0 
+  for i in surveys:
+    if i == "Daily": 
+      daily += 1 
+    if i == "Random":
+      ran += 1
+    if i == "New": 
+      nu += 1
+    if i == "Follow":
+      fu += 1
+    print("Total # of Daily surveys: %i \nTotal # of Random surveys: %i \nTotal # of New Use surveys: %i \nTotal # of Follow Up surveys: %i"
+    % (daily, ran, nu, fu))
+ 
+# Calling the function to run the algorithm
+surveyCount(surveys)
+    
+  
